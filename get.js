@@ -1,10 +1,10 @@
 function getHi(req,res){
-	console.log('Hello v1');
+	console.log('Hello v2');
 	res.sendStatus(200);
 };
 
 function getBye(req,res){
-	console.log('Goodbye v1');
+	console.log('Goodbye v2');
 	res.sendStatus(200);
 }
 
