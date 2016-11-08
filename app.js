@@ -2,7 +2,7 @@ var express = require('express');
 var multer = require('multer');
 var bodyparser = require('body-parser');
 var cors = require('cors');
-var index = require('./v3/index.js');
+var index = require('./methods/index.js');
 //var v1 = require('./Routes/v1');
 
 var app = express();
