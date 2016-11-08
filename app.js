@@ -20,7 +20,7 @@ app.use(multer({ inMemory: true }));
 app.use(cors());
 
 
-app.use('/v3/',index);
+app.use('/v4/',index);
 app.use('/',index);
 
 var server = app.listen(8080, function () {
